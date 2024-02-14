@@ -1,3 +1,4 @@
+import 'package:assets_app/pages/home_page.dart';
 import 'package:assets_app/theme/theme.dart';
 import 'package:flutter/material.dart';
 
@@ -14,21 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: AppTheme.lightTheme,
-      home: const MyHomePage(),
+      home: HomePage(),
     );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  @override
-  Widget build(BuildContext context) {
-    return const Scaffold();
   }
 }
