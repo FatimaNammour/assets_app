@@ -22,10 +22,10 @@ class AudioPageState extends State<AudioPage> {
 
   final audios = <Audio>[
     Audio(
-      'assets/audios/Om Kalthom elhob kelo.mp3',
+      'assets/audios/trendsetter-mood-maze-main-version.mp3',
     ),
     Audio(
-      'assets/audios/Ala Hesb Wedad  - Abdel Halim Hafez.mp3',
+      'assets/audios/seize-the-day-andrey-rossi-main-version.mp3',
     ),
   ];
 
@@ -129,7 +129,7 @@ class AudioPageState extends State<AudioPage> {
                 // margin: const EdgeInsets.all(18),
                 onPressed: () {
                   AssetsAudioPlayer.playAndForget(Audio(
-                      'assets/audios/Ala Hesb Wedad  - Abdel Halim Hafez.mp3'));
+                      'assets/audios/seize-the-day-andrey-rossi-main-version.mp3'));
                 },
                 child: Icon(
                   Icons.add_alert,

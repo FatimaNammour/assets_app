@@ -1,6 +1,7 @@
 import 'package:animated_notch_bottom_bar/animated_notch_bottom_bar/animated_notch_bottom_bar.dart';
 import 'package:assets_app/pages/images_assets.dart';
 import 'package:assets_app/pages/videos_page.dart';
+import 'package:assets_app/pages/audio_page.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter/material.dart';
 
@@ -33,7 +34,7 @@ class HomePageState extends State<HomePage> {
   final List<Widget> bottomBarPages = [
     const PhotoPage(),
     const VideoPage(),
-    const PhotoPage(),
+    const AudioPage(),
   ];
 
   @override
